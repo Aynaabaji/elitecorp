@@ -1,0 +1,128 @@
+@media only screen and (max-width:991px){
+    /* common-heading section starts */
+    .bio_text{
+        width: 100%;
+    }
+
+    .bio_text h4{
+        line-height: 1.5rem;
+    }
+    /* common-heading section ends */
+
+
+
+
+    /* banner-section starts */
+    #banner{
+        padding: 5rem 0;
+    }
+    .banner-content{
+        grid-template-columns: 1fr;
+    }
+
+    .banner-text h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+
+    .icon_banner{
+        padding-top: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .icon_specified{
+        font-size: 2rem;
+    }
+
+    .ban_div{
+        padding-top: 2rem;
+    }
+
+    .ban_div p{
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 1rem;
+        line-height: 0.2rem;
+    }
+
+    .ban_div h2{
+        font-size: 1rem;
+        padding-top: 0;
+    }
+
+    /* banner-section ends */
+
+    /* shortcuts section starts */
+    .shotcuts_content{
+        grid-template-columns: 1fr;
+    }
+    /* shortcuts section ends */
+
+
+
+    #slider{
+        display: none;
+    }
+    #slider2{
+        display: block;
+        padding-bottom: 4rem;
+    }
+    
+    
+    .slider2{
+        position:relative;
+    }
+    
+    
+    
+    .sitem2>img{
+        margin-left: 0.5rem;
+    }
+
+    /* latest post section starts */
+    .latest_post_grid{
+        grid-template-columns: 1fr;
+    }
+    /* latest post section ends */
+
+    /* contact section starts */
+    .contact_grid{
+        grid-template-columns: 1fr;
+    }
+
+    .contact_pic{
+        padding: 1rem;
+    }
+
+    .contact_opt{
+        padding: 1rem;
+    }
+
+    input{
+        padding: 0.4rem 0.8rem;
+    }
+
+    textarea{
+        padding: 0.4rem 0.8rem;
+    }
+    /* contact section ends */
+
+
+    /* footer sections starts */
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    /* footer sections ends */
+
+
+    .copy_grid{
+        grid-template-columns: 1fr;
+    }
+
+    .copy_right{
+        justify-content: flex-start;
+    }
+    
+}
